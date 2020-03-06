@@ -39,8 +39,7 @@ export const Footer: React.FunctionComponent<{ minimal?: boolean }> = ({ minimal
                                 <Link to="/product">Product</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/universal-code-search">What is Universal Code 
-                                Search?</Link>
+                                <Link to="/universal-code-search">What is Universal Code Search?</Link>
                             </li>
                             <li className="nav-item">
                                 <Link to="/pricing">Pricing</Link>
@@ -78,14 +77,14 @@ export const Footer: React.FunctionComponent<{ minimal?: boolean }> = ({ minimal
                             </li>
                             <li className="nav-item">
                                 <Link to="/events">Events</Link>
-                            </li>                           
+                            </li>
                         </ul>
                     </div>
                     <div className="col-sm-6 col-md-3 col-lg-2 mb-3">
                         <h3 className="footer__nav-header">Company</h3>
                         <ul className="nav flex-column">
                             <li className="nav-item">
-                                <Link to="/plan">Master plan</Link>
+                                <a href="/company/strategy">Master plan</a>
                             </li>
                             <li className="nav-item">
                                 <Link to="/about">About</Link>
